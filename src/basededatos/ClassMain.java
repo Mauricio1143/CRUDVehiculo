@@ -28,7 +28,7 @@ public class ClassMain {
                 System.out.println("5. Salir");
                 
                 int opcion = scanner.nextInt();
-                scanner.nextLine(); // Pasar a la nueva línea
+                scanner.nextLine(); // Salto de línea
                 
                 switch (opcion) {
                     case 1 -> { 
@@ -57,7 +57,7 @@ public class ClassMain {
                         // Actualizar vehículo
                         System.out.println("Ingrese el ID del vehículo a actualizar:");
                         int idActualizar = scanner.nextInt();
-                        scanner.nextLine(); // Consumir la nueva línea
+                        scanner.nextLine(); // salto de linea
                         System.out.println("Ingrese el nuevo nombre del propietario/conductor:");
                         String nuevoNombre = scanner.nextLine();
                         System.out.println("Ingrese la nueva placa del vehículo:");
